@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 60px;
+    padding: 0 24px;
+    background-color: palegoldenrod;
+    line-height: 60px;
+}
+
+h1{
+    float: left;
+    margin: 0px;
+}
+
+.header ul{
+    float: right;
+    list-style: none;
+    margin: 0px;
+    padding: 0x;
+}
+
+.header li{
+    float: left;
+    margin-left: 24px;   
+}
+
+.header a {
+    color: #000;
+    text-decoration: none;
+}
+
+.content {
+    float: left;
+    width: 70%;
+    background-color: #efefef;
+}
+
+.sidebar{
+    float: left;
+    width: 30%;
+    background-color: grey;
+    color: #fff;
+}
